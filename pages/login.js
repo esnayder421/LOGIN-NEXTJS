@@ -89,8 +89,8 @@ const Login = () => {
                     
                   <hr className="my-4" />
                   <div className="d-flex justify-content-center">
-                  <GoogleOAuthProvider clientId={clientId}>
-                  <GoogleLogin  clientId={clientId}
+                  <GoogleOAuthProvider clientId="301985077028-f683ifst9hfeqaqnk3bhhiqibb8ed9ij.apps.googleusercontent.com">
+                  <GoogleLogin  clientId="301985077028-f683ifst9hfeqaqnk3bhhiqibb8ed9ij.apps.googleusercontent.com"
                       onSuccess={credentialResponse => {
                         setDataGoogle(credentialResponse)
                         validationGoogle(credentialResponse)
